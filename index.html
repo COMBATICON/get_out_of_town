@@ -80,15 +80,13 @@
         <!--weather card-->
         <div class= "tile is-parent is-2">
             <div class= "tile is-child box" id= "weather-card">
-                <div class= "title" id= "temp">
-                    Temperature
-                </div>
-                <div id= "icon">
-                    <p>pretend I am an image</p>
-                </div>
-                <div>
-                    <p id= "weather-summary">sunny</p>
-                </div>
+
+                <header>Weather</header>
+                <div><span id='tempDisplay'></span></div>
+                <div><span id='description'></span></div>
+                <div><span id='feelsLike'></span></div>
+                <section class='weather'></section>
+
 
             </div>
         </div>
@@ -98,6 +96,7 @@
     <div class= "columns">
         <div class= "column" id= "iframe-pretend">
             <p class= "title">
+
                 Map
             </p>
             
@@ -122,5 +121,13 @@ var osm =L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 osm.addTo(map);
 
 </script>
+
+        
+
+        </div>
+    </div>
+    <!--end of maps window-->
+    <script src="./assets/js/script.js"></script>
+
 </body>
 </html>
