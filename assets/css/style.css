@@ -16,11 +16,13 @@
 
 }
 
-#iframe-pretend {
+
+/* #iframe-pretend {
     background-color: violet;
     margin: 20px 30px 0 30px;
     height: 50vh;
-}
+} */
+
 
 #weather-card {
     background-color: rgb(158, 158, 158);
@@ -47,4 +49,6 @@
     
     #locationSearch input[type=text] {
         border: 1px solid #ccc; 
+
     }
+
